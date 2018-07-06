@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jasmine's webpage</title>
+        <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li class="nav-items"><a href="home.html">Home</a></li>
+                    <li class="nav-items"><a href="bestplayers.html">Best players</a></li> 
+                    <li class="nav-items"><a href="challenges.html">Challlenges</a></li> 
+                </ul>
+                </nav>
+        </header>
+        <main>
+        <img src="images/orangejustice.gif
+         </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
