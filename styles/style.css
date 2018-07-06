@@ -8,27 +8,14 @@ h1{
   color:#4000ff
 }
 img{
-  border-radius:10%
+  border-radius:10%;
 }
 .rr
 {
   margin-left:11%;
 }
 
-footer{
-  background-color: silver;
-  border-top:solid 20px pink;
-  padding:7%;
-/*     display: block;
-  position: fixed;
-  width: 100%;
-  clear: both;
-  bottom: 0; */
-    display: flex;
-  align-items:flex-end;
-  justify-content: space-between;
-/*   position: relative; */
-}
+
 
 body {
 /*   padding-bottom: 20em; */
@@ -97,6 +84,7 @@ footer {
   justify-content:space-around;
   align-items:center;
   flex-wrap:wrap;
-  position:relative;
-  padding:5%;
+  position:absolute;
+  bottom: 0;
 }
+
