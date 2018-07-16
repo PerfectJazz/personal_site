@@ -15,10 +15,8 @@ img{
   margin-left:11%;
 }
 
-
-
 body {
-/*   padding-bottom: 20em; */
+   padding-bottom: 20em; 
   position:relative;
 }
 body {
@@ -47,10 +45,9 @@ li a {
   width: 100%;
   justify-content: space-around;
   flex-wrap:wrap;
-  height:8em;
+  min-height:8em;
   align-items:center;
-  
-}
+  }
 
 nav {
   background-color: blue;
@@ -65,6 +62,32 @@ nav {
 
 .navbar a:link {
   text-decoration:none;
+}
+.icon{
+  display:none;
+}
+.navbar button{
+  background:none;
+  color:yellow;
+  border:none;
+  font-size:1em;
+  padding:0;
+}
+@media screen and (max-width:1035px){ ul.nav li:not(:first-child){
+  display:none;
+  }
+  ul.navbar{
+    flex-direction:column;
+  }
+  ul.navbar li.icon{
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  ul.navbar.responsive li{
+    display:block;
+  }
 }
 
 body {
